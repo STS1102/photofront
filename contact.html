@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Portfolio de Charles Cantin</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="logo-container">
+                <img src="./images/charles cantin.PNG" alt="Logo" class="logo">
+            </div>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active"><a class="nav-link" href="index.html">Accueil</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Galeries
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="./galerie.html">Mariage</a>
+                            <a class="dropdown-item" href="./grossesse.html">Grossesse</a>
+                            <a class="dropdown-item" href="./bebe.html">Bébé</a>
+                            <a class="dropdown-item" href="./bapteme.html">Baptème </a>
+                            <a class="dropdown-item" href="./famille.html">Famille</a>
+                            <a class="dropdown-item" href="./couple.html">Couple</a>
+                            <a class="dropdown-item" href="./portrait.html">Portraits</a>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="tarifs.html">Tarifs</a></li>
+                    <li class="nav-item"><a class="nav-link" id= "active" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mt-4">
+       
+        <div class="contact-info row justify-content-center">
+            <div class="col-md-4 text-center">
+                <p><i class="fas fa-map-marker-alt"></i></p>
+                <p><strong>ADRESSE</strong></p>
+                <p>0 rue de la Concorde<br>01000 Paris</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <p><i class="fas fa-clock"></i></p>
+                <p><strong>HORAIRES D'OUVERTURE</strong></p>
+                <p>Lundi & Dimanche: Fermé<br>Mardi - Vendredi: 10:00-13:00 et 14:00-19:00<br>Samedi: 10:00-18:00</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <p><i class="fas fa-phone"></i></p>
+                <p><strong>TÉLÉPHONES & EMAIL</strong></p>
+                <p>Téléphone : 07 53 79 67 15 | 07 53 79 67 15<br>Email : contact@charlescantin-photographe.fr</p>
+            </div>
+        </div>
+
+<h2 class="contacter">Contactez-moi</h2>
+
+
+        <div class="form-container">
+            <form class="contact-form">            
+        
+                <div class="form-group">
+                    <label for="name">Nom & Prénom:</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email :</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Votre message :</label>
+                    <textarea class="form-control" id="message" name="message" required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="sessionType">Quel type de séance souhaitez-vous ? *</label>
+                    <select class="form-control" id="sessionType" name="sessionType" required>
+                        <option value="">-- Choisir --</option>
+                        <option value="Portrait">Portrait</option>
+                        <option value="Mariage">Mariage</option>
+                        <option value="Grossesse">Grossesse</option>
+                        <option value="Bébé">Bébé</option>
+                        <option value="Baptème">Baptème</option>
+                        <option value="Famille">Famille</option>
+                        <option value="Couple">Couple</option>
+                    </select>
+                </div>
+        
+                <div class="form-group">
+                    <label for="source de découverte">Comment avez-vous entendu parler de nous ? *</label>
+                    <select class="form-control" id="discoverySource" name="discoverySource" required>
+                        <option value="">-- Choisir --</option>
+                        <option value="internet">Internet</option>
+                        <option value="friend">Ami(e)</option>
+                        <option value="tiktok">Tiktok</option>
+                    </select>
+                </div>
+        
+                <div class="form-group">
+                    <label for="preferredDate">Date de séance souhaitée ? *</label>
+                    <input type="date" class="form-control" id="preferredDate" name="preferredDate" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="phoneNumber">Téléphone *</label>
+                    <input type="tel" class="form-control" id="phoneNumber" name="phoneNumber" required>
+                </div>
+        
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="newsletter" name="newsletter">
+                    <label class="form-check-label" for="newsletter">J'autorise Charles Cantin à m'envoyer sa newsletter mensuelle</label>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Envoyer</button>
+ </form>
+        </div>
+        
+    </main>
+
+    
+
+    <footer class="text-center mt-4">
+        <div class="social-icons">
+            <a href="#" target="_blank">
+                <img src="./images/icon-facebook.svg" alt="Facebook" class="social-icon">
+            </a>
+            <a href="#" target="_blank">
+                <img src="./images/icon-instagram.svg" alt="Instagram" class="social-icon">
+            </a>
+            <a href="#" target="_blank">
+                <img src="./images/icon-twitter.svg" alt="Twitter" class="social-icon">
+            </a>
+        </div>
+        <p>&copy; 2023 Charles Cantin</p>
+    </footer>
+
+    <script src="./script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
