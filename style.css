@@ -27,19 +27,6 @@ header {
     height: auto; 
   }
   
-  .navbar {
-  display: flex;
-  justify-content: space-between;
-  padding: 1rem;
-  background-color: #333;
-  color: #fff;
-}
-
-.navbar a {
-  color: #fff;
-  text-decoration: none;
-  padding: 0 15px;
-}
 
 
 /*****************/
