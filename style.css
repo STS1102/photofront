@@ -253,14 +253,21 @@ margin-top: 5%;
   margin-top: 1rem; 
 }
 
-@media (min-width: 768px) {
+/* Styles de base pour les écrans plus larges */
+body {
+    font-size: 16px;
+  }
+  
+  /* Styles pour les écrans de taille moyenne (tablette) */
+  @media (max-width: 768px) {
     body {
-      font-size: 18px;
+      font-size: 14px;
     }
   }
   
-  @media (min-width: 1024px) {
+  /* Styles pour les écrans plus petits (smartphones) */
+  @media (max-width: 480px) {
     body {
-      font-size: 20px;
+      font-size: 12px;
     }
   }
