@@ -16,4 +16,4 @@ Le site présente une galerie de ses travaux et fournit des informations pour le
 - JavaScript
 - Bootstrap 4
 ## Déploiement
-Le projet est déployé sur Netlify. Vous pouvez le visiter via ce lien : 
+Le projet est déployé sur Netlify. Vous pouvez le visiter via ce lien : https://photofront.netlify.app
