@@ -15,3 +15,5 @@ Le site présente une galerie de ses travaux et fournit des informations pour le
 - CSS3
 - JavaScript
 - Bootstrap 4
+## Déploiement
+Le projet est déployé sur Netlify. Vous pouvez le visiter via ce lien : 
